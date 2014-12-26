@@ -7,6 +7,8 @@
 
 using namespace std;
 
+// ***** WenjieTao  2014/12/26*****
+
 typedef unsigned char uint8_t;
 
 typedef struct eq_pr
