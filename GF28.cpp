@@ -9,6 +9,8 @@
 
 using namespace std;
 
+// ***** WenjieTao  2014/12/26*****
+
 typedef unsigned char uint8_t;
 
 uint8_t add(uint8_t a, uint8_t b);		// addition
