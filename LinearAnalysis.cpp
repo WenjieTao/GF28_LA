@@ -11,11 +11,11 @@ using namespace std;
 
 typedef unsigned char uint8_t;
 
-typedef struct eq_pr
+typedef struct
 {
 	int index;			// the index of an equation
 	int count;			// the number of times it holds
-};
+} eq_pr;
 
 int comp(eq_pr& a, eq_pr& b)
 {
@@ -86,6 +86,5 @@ int main()
 		bitset<16> eq(hits[i].index);
 		cout << i << ":\t" << eq << "\t" << hits[i].count/256.0 << endl;
 	}
-	system("pause");
 	return 0;
 }
