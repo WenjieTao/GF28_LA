@@ -93,7 +93,6 @@ int main()
 	}
 	cout << "100000 times inv elapsed time:" << double(clock() - start_time3) / CLOCKS_PER_SEC << 's' << endl;
 
-	system("pause");
 	return 0;
 }
 
